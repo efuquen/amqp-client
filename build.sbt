@@ -1,6 +1,6 @@
 name := "amqp-client"
 
-organization := "com.github.sstone"
+organization := "com.gettyimages"
  
 version := "1.2-SNAPSHOT"
  
