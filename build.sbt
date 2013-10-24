@@ -11,7 +11,7 @@ scalacOptions  ++= Seq("-feature", "-language:postfixOps")
 resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
 
 libraryDependencies <<= scalaVersion { scala_version => 
-    val akkaVersion   = "2.2.0-RC2"
+    val akkaVersion   = "2.2.0"
     Seq(
         "com.typesafe.akka"    %% "akka-actor"          % akkaVersion,
         "com.rabbitmq"         % "amqp-client"          % "3.1.2",
